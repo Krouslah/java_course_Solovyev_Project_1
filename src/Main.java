@@ -64,30 +64,37 @@ public class Main {
                         j = cycle2();
                         switch (j) {
                             case 1:
+                                System.out.print("Введите второе значение : ");
                                 result += readForSecondOption();
                                 System.out.println("Результат : "+result);
                                 continue;
                             case 2:
+                                System.out.print("Введите второе значение : ");
                                 result -= readForSecondOption();
                                 System.out.println("Результат : "+result);
                                 continue;
                             case 3:
+                                System.out.print("Введите второе значение : ");
                                 result *= readForSecondOption();
                                 System.out.println("Результат : "+result);
                                 continue;
                             case 4:
+                                System.out.print("Введите второе значение : ");
                                 result /= readForSecondOption();
                                 System.out.println("Результат : "+result);
                                 continue;
                             case 5:
+                                System.out.print("Введите второе значение : ");
                                 result = Math.pow(result, readForSecondOption());
                                 System.out.println("Результат : "+result);
                                 continue;
                             case 6:
+                                System.out.print("Введите второе значение : ");
                                 result = factorial(result);
                                 System.out.println("Результат : "+result);
                                 continue;
                             case 7:
+                                System.out.print("Введите второе значение : ");
                                 double lastNumber = readForSecondOption();
                                 System.out.println("Результат : "+result + " " + comparison(result, lastNumber) + " " + lastNumber);
                                 continue;
